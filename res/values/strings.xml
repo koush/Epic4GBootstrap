@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Verizon Tab Bootstrapper</string>
+    <string name="flash_boot">Flash Boot</string>
+    <string name="flash_recovery">Flash Recovery</string>
+    <string name="reboot_recovery">Reboot Recovery</string>
+    
+    <string name="flash_boot_info">Flashing the boot image will allow you to use "reboot recovery" and ROM Manager.</string>
+    <string name="flash_recovery_info">Flashing the recovery image will allow you to enter recovery mode using the 3 button combo.</string>
+</resources>

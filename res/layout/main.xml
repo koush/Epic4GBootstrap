@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/logo"
+    >
+	<TextView android:text="@string/flash_boot_info" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:gravity="center_horizontal" android:textSize="20sp"/>
+<Button android:text="@string/flash_boot" android:id="@+id/flash_boot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:textSize="20sp"></Button>
+	<TextView android:text="@string/flash_recovery_info" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:gravity="center_horizontal" android:textSize="20sp"/>
+<Button android:text="@string/flash_recovery" android:id="@+id/flash_recovery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:textSize="20sp"></Button>
+<Button android:layout_marginTop="20dp" android:text="@string/reboot_recovery" android:id="@+id/reboot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:textSize="20sp"></Button>
+</LinearLayout>
