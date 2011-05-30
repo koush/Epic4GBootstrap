@@ -36,10 +36,10 @@ public class Bootstrap extends Activity {
             public void onClick(View v) {
                 String filesDir = getFilesDir().getAbsolutePath();
                 String flash_image = filesDir + "/flash_image";
-                String bootimg = filesDir + "/boot.img ; sync";
+                String bootimg = filesDir + "/boot.img";
 
                 StringBuilder command = new StringBuilder();
-                command.append(flash_image + " boot " + bootimg);
+                command.append(String.format("%s boot %s ; sync", flash_image, bootimg));
                 
                 AlertDialog.Builder builder = new Builder(Bootstrap.this);
                 builder.setPositiveButton(android.R.string.ok, null);
@@ -62,10 +62,10 @@ public class Bootstrap extends Activity {
             public void onClick(View v) {
                 String filesDir = getFilesDir().getAbsolutePath();
                 String flash_image = filesDir + "/flash_image";
-                String recoveryimg = filesDir + "/recovery.img ; sync";
+                String recoveryimg = filesDir + "/recovery.img";
 
                 StringBuilder command = new StringBuilder();
-                command.append(flash_image + " recoveryonly " + recoveryimg);
+                command.append(String.format("%s recoveryonly %s ; sync", flash_image, recoveryimg));
                 
                 AlertDialog.Builder builder = new Builder(Bootstrap.this);
                 builder.setPositiveButton(android.R.string.ok, null);
