@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.koushikdutta.verizontab.bootstrap;
+package com.koushikdutta.epic4g.bootstrap;
 
 public final class R {
     public static final class attr {

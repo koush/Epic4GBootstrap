@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Verizon Tab Bootstrapper</string>
+    <string name="app_name">Epic4G Bootstrapper</string>
     <string name="flash_boot">Flash Boot</string>
     <string name="flash_recovery">Flash Recovery</string>
     <string name="reboot_recovery">Reboot Recovery</string>
